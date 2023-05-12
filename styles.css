@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  font-family: "Lora", serif;
+  background: #f0f8ff;
+}
+
+.hero {
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-image: url("images/Scoleus.jpg");
+  background-size: cover;
+  background-position: top;
+  border-bottom: 0.1em solid #7bafd4;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding: 0.1rem 0.5rem;
+  color: black;
+  text-shadow: 0.1rem 0.1rem 0.2rem #7bafd4;
+}
+
+#hero-title {
+  margin: 2em 0;
+  background: rgba(255, 245, 238, 0.5);
+  backdrop-filter: blur(0.1em);
+  border: 0.1rem solid #7bafd4;
+  border-radius: 1em;
+  padding: 0.1em 0.5em;
+  color: black;
+  text-shadow: 0.1em 0.1em 0.2em #7bafd4;
+}
+
+#img-section-title {
+  margin: 0.75em 0;
+}
+
+#image-section-container {
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.img-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#column-a,
+#column-b,
+#column-c {
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em 0 1em 1em;
+  padding: 1em;
+  border-radius: 1em 3em;
+  background: #7bafd4;
+  border: 0.3em solid #0095b6;
+}
+
+.column-img {
+  width: 100%;
+  border: 0.2em solid #0095b6;
+  border-radius: 1em 3em;
+}
+
+#card-section {
+  margin: 0;
+  background: rgb(190, 200, 210);
+  padding: 3em 0 5em 0;
+}
+
+.card {
+  width: 25rem;
+  margin: 0 auto;
+  padding: 1em 2em;
+  border: 0.3em solid #0095b6;
+  border-radius: 1em 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #7bafd4;
+}
+
+#avatar {
+  width: 8em;
+  border: 0.2em solid #0095b6;
+  border-radius: 1em 3em;
+}
